@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/00e4331c95.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
     <title>Friends | Kakao Clone</title>
 </head>
 <body>
@@ -32,7 +33,7 @@
     <main class="friends">
         <!--내 프로필 구역-->
         <header class="friends__header">
-            <div class="friends__friend friend friend--lg">
+            <div class="friends__friend friend">
                 <div class="friend__column">
                     <img src="images/avatar.jpg" class="g-avatar friend__avatar">
                     <div class="friend__content">
@@ -47,7 +48,7 @@
             <h5 class="friends__plus-title">Plus Friend</h5>
             <div class="friends__friend friend">
                 <div class="friend__column">
-                    <img src="images/putin.jpg" class="g-avatar friend__avatar">
+                    <img src="images/putin.jpg" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">Vladimir Putin</span>
                     </div>
@@ -59,7 +60,37 @@
         <ul class="friends__list">
             <li class="friends__friend friend">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg" class="g-avatar friend__avatar">
+                    <img src="images/avatar.jpg" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">NewClus Runedberry</span>
+                        <span class="friend__status">Bring me VODKAAA</span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__now-listening">
+                        <span>Putin - Soviet March</span>
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+            </li>
+            <li class="friends__friend friend">
+                <div class="friend__column">
+                    <img src="images/avatar.jpg" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">NewClus Runedberry</span>
+                        <span class="friend__status">Bring me VODKAAA</span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__now-listening">
+                        <span>Putin - Soviet March</span>
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+            </li>
+            <li class="friends__friend friend">
+                <div class="friend__column">
+                    <img src="images/avatar.jpg" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">NewClus Runedberry</span>
                         <span class="friend__status">Bring me VODKAAA</span>
@@ -83,6 +114,7 @@
             </li>
             <li class="nav__list-item">
                 <a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
                     <i class="far fa-comment"></i>
                 </a>
             </li>
