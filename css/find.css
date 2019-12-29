@@ -39,3 +39,11 @@
     opacity: 0.7;
     margin-bottom: 20px;
 }
+
+.find .find__friend{
+    margin-bottom: 10px;
+}
+
+.friend .friend__name{
+    font-size: 16px;
+}
